@@ -1,7 +1,7 @@
 from django.shortcuts import render, HttpResponse, redirect, get_object_or_404
 from django.contrib.auth.models import User
 from django.contrib.auth import authenticate, login, logout
-from .models import Post, Comment, Message, Like
+from .models import Post, Comment, Message
 from .forms import PostForm, CommentForm, MessageForm
 
 def SignupPage(request):
